@@ -1,0 +1,5 @@
+Collection.find({}) /// empty object then will return array of all the documents
+
+Collection.find({alias:'my-project', , , }) // will return all documents matching the alias/ options as an array
+
+Collection.findOne({alias:''})//   this will return first matching document
